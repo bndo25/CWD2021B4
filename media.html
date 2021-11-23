@@ -23,7 +23,13 @@
   <div class="divider"></div>
   <div class="section cyan-text">
     <h5></h5>
-    <img class="materialboxed" width="650" src="images/sample-1.jpg">
+    <div class="row">
+    <div class="col s12 m6">
+    <!-- Material Box -->
+      <img class="materialboxed" width="650" src="image/anton.jpg">
+      
+  </div>
+  </div>
   </div>
 </div>
 </div>
@@ -33,7 +39,11 @@
   <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-
+      <script>
+  $(document).ready(function(){
+  $('.materialboxed').materialbox();
+});
+</script>
 
     </body>
 </html>
