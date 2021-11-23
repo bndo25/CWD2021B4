@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Place your kit's code here -->
+  <script src="https://kit.fontawesome.com/c69ab135cc.js" crossorigin="anonymous"></script>
+  <title>Form</title>
+</head>
+<body class="brown darken-4">
+<div class="container">
+  <h1 class="orange-text"> Form </h1>
+
+<!--   -->
+  <div class="divider"></div>
+  <div class="section cyan-text">
+    <h5></h5>
+  <!-- Text Field -->
+  <form>
+    <!-- Text Field -->
+    <div class="input-field">
+        <input type="text" id="name" placeholder="Full Name">
+        <label for="name">Name</label>
+    </div>
+    <!-- Value & Disabled -->
+    <div class="input-field">
+        <input disabled placeholder="email" type="email" id="name" value="test@gmail.com">
+        <label for="name">Email</label>
+    </div>
+
+    <!-- text area-->
+    <div class="input-field">
+        <textarea class="materialize-textarea" name="message" id="message"></textarea>
+        <label for="message">Message</label>
+    </div>
+
+    <!--INline Field -->
+    Number of Users:
+    <div class="input-field in">
+        <input type="text" id="users">
+        <label for="users">Users</label>
+    </div>
+
+    <!-- Icons Prefix -->
+    <div class="input-field">
+        <i class="material-icons prefix">phone</i>
+        <input type="tel" id="phone">
+        <label for="phone">Phone Number</label>
+    </div>
+
+    <!-- Validation & Error -->
+    <div class="input-field">
+        <input type="email" placeholder="Email" id="email" class="validate">
+        <label for="email">Email</label>
+        <span class="helper-text" data-error="Invalid" data-success="Valid">Helper text</span>
+    </div>
+</form>
+</div>
+
+
+</div>
+
+  <!--Jquery CDN--> 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    </body>
+</html>
